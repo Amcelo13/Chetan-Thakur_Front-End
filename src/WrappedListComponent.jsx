@@ -8,9 +8,9 @@ const WrappedSingleListItem = ({ index, isSelected, onClickHandler, text }) => {
       // added a key prop
       key={index}
       // changed isSelected to a function
-      style={{ backgroundColor: isSelected(index) ? "green" : "red" }}
+      style={{ backgroundColor: isSelected(index) ? "lightgreen" : "darkgray" }}
       // Declaration as an arrow function 
-      onClick={() => onClickHandler(index)}
+      onClick={() => onClickHandler(index)}                                                                                             
     >
       {text}
     </li>
