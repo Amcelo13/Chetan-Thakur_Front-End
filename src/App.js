@@ -3,18 +3,18 @@ import WrappedListComponent from "./WrappedListComponent.jsx";
 
 const items = [
   {
-    "text": "Harsh",
+    "text": "Chetan",
   },
   {
-    text: "Ravi",
+    text: "Thakur",
   },
   {
-    text: "John",
+    text: "Alex",
   },
 ];
 function App() {
   return (
-    <div>
+    <div style={{cursor:'pointer'}}>
       <WrappedListComponent items = {items}/>
     </div>
   );

@@ -9,7 +9,7 @@ const WrappedSingleListItem = ({ index, isSelected, onClickHandler, text }) => {
       key={index}
       // changed isSelected to a function
       style={{ backgroundColor: isSelected(index) ? "green" : "red" }}
-      // declared with arrow function
+      // Declaration as an arrow function 
       onClick={() => onClickHandler(index)}
     >
       {text}
@@ -29,7 +29,7 @@ const SingleListItem = memo(WrappedSingleListItem);
 
 // List Component
 const WrappedListComponent = ({ items }) => {
-  // interchanged selectedIndex and setSelectedIndex (modified 1)
+  // Interchanging selectedIndex and setSelectedIndex 
   const [selectedIndex, setSelectedIndex] = useState();
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const WrappedListComponent = ({ items }) => {
           onClickHandler={() => handleClick(index)}
           text={item.text}
           index={index}
-          // modified
+          // Modified
           isSelected={(ind) => ind === selectedIndex}
         />
       ))}
@@ -59,7 +59,7 @@ const WrappedListComponent = ({ items }) => {
 };
 
 WrappedListComponent.propTypes = {
-  // array -> arrayOf and shapeOf -> shape
+  // Modified array -> arrayOf and shapeOf -> shape
   items: PropTypes.arrayOf(
     PropTypes.shape({
       text: PropTypes.string.isRequired,
@@ -68,7 +68,7 @@ WrappedListComponent.propTypes = {
 };
 
 WrappedListComponent.defaultProps = {
-  // passing empty arr
+  // passing an empty array
   items: [],
 };
 
