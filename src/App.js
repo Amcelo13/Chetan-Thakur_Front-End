@@ -1,5 +1,5 @@
-wzimport "./App.css";
-import WrappedListComponent from "./component/WrappedListComponent.jsx";
+import "./App.css";
+import WrappedListComponent from "./WrappedListComponent.jsx";
 
 const items = [
   {
