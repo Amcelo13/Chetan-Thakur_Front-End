@@ -120,8 +120,8 @@ export default List;
 
 ```
 
-**Name** : Harsh Bansal <br/>
-**Reg No**. : 12012999 <br/>
+**Name** : Chetan Thakur <br/>
+**Reg No**. : 12012993 <br/>
 **Course** : Btech (CSE) <br/>
-**Email id** : ihbbro14@gmail.com <br/>
-**Mobile No.** : 8812960476 <br/>
+**Email id** : tchetan308@gmail.com <br/>
+**Mobile No.** : 6284959387 <br/>
